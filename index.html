@@ -34,7 +34,7 @@
     <section class="main">
       <div class="main--buscar">
         <div class="main--buscar__menu">
-          <button type="button" name="button"></button>
+          <button type="button" name="button">Mas</button>
         </div>
         <div class="main--buscar__title">
           <h2>Laboratorios</h2>
@@ -47,44 +47,55 @@
     </section>
 
     <section class="reserva">
-      <div class="reserva--title">
-        <h1>Reservar Laboratorios</h1>
+      <div class="reserva--all">
+        <div class="reserva--title">
+          <h1>Reservar Laboratorios</h1>
+        </div>
+        <div class="reserva--form">
+          <div class="reserva--form__sesiones">
+            <label for="">Sesiones a tomar</label>
+            <input type="number" min="1" max="100" placeholder="Secciones a tomar">
+          </div>
+          <div class="reserva--form__days">
+            <div class="reserva--form__days--title">
+            <h2>Dias</h2>
+            </div>
+            <div class="reserva--form__days--dias">
+              <label for="">Lunes</label>
+              <input type="checkbox" name="" value=""><br>
+              <label for="">Martes</label>
+              <input type="checkbox" name="" value=""><br>
+              <label for="">Miercoles</label>
+              <input type="checkbox" name="" value=""><br>
+              <label for="">Jueves</label>
+              <input type="checkbox" name="" value=""><br>
+              <label for="">Viernes</label>
+              <input type="checkbox" name="" value=""><br>
+            </div>
+          </div>
+          <div class="reserva--form__jornada">
+            <label for="">Selecione la jornada</label>
+            <select class="" name="">
+              <option value=""></option>
+              <option value="">Matutina</option>
+              <option value="">Vespertina</option>
+              <option value="">Nocturna</option>
+            </select>
+          </div>
+        <div class="reserva--form__hora">
+          <div class="reserva--form__hora--label">
+              <label for="">Selecione el tiempo de uso</label>
+          </div>
+          <div class="reserva--form__hora--hora">
+            <input type="text" name="" value="" placeholder="Hora comienzo">
+            <input type="text" name="" value="" placeholder="Hora final">
+          </div>
+        </div>
+        <div class="reserva--form__numEstudiaates">
+          <label for="">Numero estudiantes</label>
+          <input type="number" name="" value="" min="1" max="50" placeholder="Estudiantes">
+        </div>
       </div>
-      <div class="reserva--form">
-        <div class="reserva--form__sesiones">
-          <label for="">Sesiones a tomar</label>
-          <input type="number" min="1" max="100" placeholder="Secciones a tomar">
-        </div>
-        <div class="reserva--form__days">
-          <label for="">Lunes</label>
-          <input type="checkbox" name="" value=""><br>
-          <label for="">Martes</label>
-          <input type="checkbox" name="" value=""><br>
-          <label for="">Miercoles</label>
-          <input type="checkbox" name="" value=""><br>
-          <label for="">Jueves</label>
-          <input type="checkbox" name="" value=""><br>
-          <label for="">Viernes</label>
-          <input type="checkbox" name="" value=""><br>
-        </div>
-        <div class="reserva--form__jornada">
-          <select class="" name="">
-            <option value=""></option>
-            <option value="">Matutina</option>
-            <option value="">Vespertina</option>
-            <option value="">Nocturna</option>
-          </select>
-        </div>
-      </div>
-      <div class="reserva--form__hora">
-        <div class="reserva--form__hora--hora">
-          <input type="text" name="" value="" placeholder="Hora comienzo">
-          <input type="text" name="" value="" placeholder="Hora final">
-        </div>
-      </div>
-      <div class="reserva--form__numEstudiaates">
-        <label for="">Numero estudiantes</label>
-        <input type="number" name="" value="" min="1" max="50" placeholder="Estudiantes">
       </div>
     </section>
 
